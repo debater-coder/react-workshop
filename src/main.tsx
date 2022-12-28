@@ -74,14 +74,47 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
         </Slide>
       </Slide>
       <Slide>
-        <h3>Web apps are 'real' apps too</h3>
+        <Slide>
+          <h3>Web apps are 'real' apps too</h3>
+          <ul>
+            <li className="fragment">Electron (for desktop apps)</li>
+            <li className="fragment">Ionic (for mobile apps)</li>
+            <li className="fragment">React Native (for both)</li>
+            <li className="fragment">
+              <strong>PWAs</strong> (web apps that can be added to home screen
+              and use native features)
+            </li>
+          </ul>
+        </Slide>
+        <Slide>
+          <h3>Web apps are 'real' apps too</h3>
+          <p>
+            Both Slack and VSCode are Electron apps built on web technologies
+            (HTML, CSS, JS).
+          </p>
+          <a href="https://vscode.dev/" target={"_blank"}>
+            vscode.dev
+          </a>
+        </Slide>
+      </Slide>
+      <Slide notes="Decisions you need to make. Talk about responsive. Demo Timetabl responsive. Talk about why not responsive. Comment about why avoid fancy 3d stuff and AI metaverse quantum blabs.">
+        <h3>Designing your app</h3>
         <ul>
-          <li className="fragment">Electron (for desktop apps)</li>
-          <li className="fragment">Ionic (for mobile apps)</li>
-          <li className="fragment">React Native (for both)</li>
+          <li>Who is the target audience? (Empathise)</li>
+          <li>What is the purpose of the app? (Define)</li>
+          <li>What features does it need? (Ideate)</li>
           <li className="fragment">
-            <strong>PWAs</strong> (web apps that can be added to home screen and
-            use native features)
+            What devices do you target?{" "}
+            <ul>
+              <li>
+                <strong>Responsive</strong>
+              </li>
+              <li>Desktop</li>
+              <li>Mobile</li>
+            </ul>
+          </li>
+          <li className="fragment">
+            Limit the initial scope of the app so you can build it in this term.
           </li>
         </ul>
       </Slide>
