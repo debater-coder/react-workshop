@@ -118,6 +118,17 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
           </li>
         </ul>
       </Slide>
+      <Slide>
+        <h3>The plan:</h3>
+        <ul>
+          <li>App design ✅</li>
+          <li>
+            Learn the fundementals of React, and do some challenges to practice
+          </li>
+          <li>Start building the app</li>
+          <li>Cover the necessary principles as we go</li>
+        </ul>
+      </Slide>
     </App>
   </React.StrictMode>
 );
