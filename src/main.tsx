@@ -226,6 +226,8 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
               .querySelector("#reset")
               .addEventListener("click", reset);
 
+            updateText();
+
             `}
           </code>
         </pre>
